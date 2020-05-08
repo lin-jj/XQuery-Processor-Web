@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+.left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+}
+
+.center{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    margin: 0 35% 0 35%;
+    background-color: white;
+}
+
+.right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+}
