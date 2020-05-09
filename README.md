@@ -1,5 +1,5 @@
 # XQuery-Processor-Web
-XQuery-Processor-Web is a website for Xquery Processing, developed with Eclipse, Spring Boot, Maven.
+XQuery-Processor-Web is a website processing Xquery, developed with Eclipse, Spring Boot, Maven.
 
 ## Build
 Use Maven to compile the project by executing the following command:
@@ -9,7 +9,7 @@ mvn compile
 ## Usage
 Run the program as a Spring Boot App.
 
-Open http://localhost:8080/, upload xml files, and enter your query.
+Open http://localhost:8080/, upload XML files, and enter your query.
 
 For example, enter the following XQuery, and click 'Submit',
 
@@ -27,7 +27,7 @@ For example, enter the following XQuery, and click 'Submit',
 }</acts>
 ```
 
-the result will be displayed on the website.
+then the result will be displayed on the website.
 ```
 <acts>
 
