@@ -1,0 +1,9 @@
+<acts> { for $a in doc("j_caesar.xml")//ACT
+
+              where some $b in doc("j_caesar.xml")//ACT//SPEAKER, $c in doc("j_caesar.xml")//ACT//STAGEDIR  
+
+		    satisfies (($b/text() = "FLAVIUS") and ($c/text() = "Exeunt"))
+
+              return <act>{$a/TITLE/text()}</act>
+
+}</acts>
